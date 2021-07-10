@@ -25,6 +25,8 @@ function kata1() {
 
 function kata2() {
     // implemente o código do kata 2 aqui
+  let kat2 =[];
+
 }
 
 function kata3() {
