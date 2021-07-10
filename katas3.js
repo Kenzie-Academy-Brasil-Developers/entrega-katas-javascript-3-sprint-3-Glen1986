@@ -1,11 +1,32 @@
 const sampleArray = [469, 755, 244, 245, 758, 450, 302, 20, 712, 71, 456, 21, 398, 339, 882, 848, 179, 535, 940, 472];
 
+function showResults(a, b) {
+  const destiny = document.getElementById("body");
+  const actividad = document.createElement("div");
+  const titulo = document.createElement("h2");
+  const resultado = document.createElement("p");
+
+  destiny.appendChild(actividad);
+  resultado.innerText = a;
+  titulo.innerText = b;
+  actividad.appendChild(titulo);
+  actividad.appendChild(resultado);
+}
+
 function kata1() {
     // implemente o código do kata 1 aqui
+  let kat1 = [];
+  for (let i = kat1; i <= 25; i++) {
+    kat1.push(i);
+  }
+  showResults(kat1, "kata1");
+  return kat1();
 }
 
 function kata2() {
     // implemente o código do kata 2 aqui
+  let kat2 =[];
+
 }
 
 function kata3() {
