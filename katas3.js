@@ -82,7 +82,7 @@ kata5();
 function kata6() {
     // implemente o código do kata 6 aqui
   let kat6 = [];
-  for(let i = 0; i <= 100; i ++){
+  for(let i = 1; i <= 100; i ++){
     if(i % 3 === 0){
       kat6.push(i);
     }
@@ -95,7 +95,7 @@ kata6();
 function kata7() {
     // implemente o código do kata 7 aqui
   let kat7 = [];
-  for(let i = 0; i <= 100; i ++){
+  for(let i = 1; i <= 100; i ++){
     if(i % 7 === 0){
       kat7.push(i);
     }
@@ -197,7 +197,7 @@ function kata15() {
     // implemente o código do kata 15 aqui
   let kat15 = 0;
   for ( let i = 0; i <= 20; i ++ ){
-    kat15 =+ i;
+    kat15 += i;
   }
   showResults(kat15, "kata15");
   return kat15;
@@ -208,7 +208,7 @@ function kata16() {
     // implemente o código do kata 16 aqui
   let kat16 = 0;
   for ( let i = 0; i < sampleArray.length; i ++ ){
-    kat16 =+ Number(sampleArray[i]);
+    kat16 += Number(sampleArray[i]);
   }
   showResults(kat16, "kata16");
   return kat16
