@@ -66,7 +66,7 @@ kata4();
 function kata5() {
     // implemente o código do kata 5 aqui
   let kat5 = [];
-  for(let i = -25; i <= 25; i++){
+  for(let i = 25; i >= -25; i--){
     if(i % 2 > 0){
       kat5.push(i);
     }
